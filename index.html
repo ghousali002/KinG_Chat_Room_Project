@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinG_Chat</title>
+    <link rel="icon" type="png" href="logo.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <section class="chat_area">
+            <div class="brand">
+            <img src="/logo.png" alt="logo" height="40">
+            <h2>Welcome To KinG_Chat App </h2>
+        </div>
+        <div class="msg_area"></div>
+        <div class="textbox">
+            <input type="text" class="textarea" placeholder="Enter your text... " aria-selected="true">
+            <button class="send_button">Send</button>
+        </div>
+        </section>
+    </div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+</html>

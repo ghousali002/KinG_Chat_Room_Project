@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #e07d7d;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+section.chat_area {
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.brand {
+    padding: 20px;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+.brand h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444;
+    margin-left: 10px;
+}
+.msg_area{
+    height: 400px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+
+.msg {
+    padding: 20px; 
+    border-radius: 4px; 
+    max-width: 300px;
+    position: relative;
+}
+.incoming_msg {
+    background: #b9b8c4;
+    color: #0a0a0a;  
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 25px;
+}
+.outgoing_msg {
+    background: #9696df;
+    color: #010313;
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 25px;
+}
+.msg h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    margin-left: 5px;
+    color: #333;
+    font-size: 14px;
+}
+
+.send_button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin: auto;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+  
+  .send_button:hover {
+    background-color: #0056b3;
+  }
+
+
+.textbox {
+    display: flex;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  
+  .textarea {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 85%;
+    padding: 10px;
+    font-size: 16px;
+    outline:#b9b8c4;
+    background: #FBFBFB;
+    margin-bottom: 10px;
+    display: inline;
+    height: 10%;
+  }
+  
+  
